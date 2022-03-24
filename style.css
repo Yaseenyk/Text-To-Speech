@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #7F3FBF;
+}
+
+.container{
+    width: 370px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px 30px;
+}
+
+.container header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container form{
+    margin: 35px 0 20px;
+}
+
+form .row{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+form .row label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+form :where(textarea, select, button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+form .row textarea{
+    resize: none;
+    height: 130px;
+    font-size: 15px;
+    padding: 5px 5px;
+    border:  1px solid gray;
+}
+
+form .row .outer{
+    height:  47px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+form .row select{
+        font-size: 14px;
+        cursor: pointer;  
+}
+
+form button{
+        height: 52px;
+        margin-top: 10px;
+        background-color: #BF3F8E;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+}
+
+form button:hover{
+    height: 52px;
+        margin-top: 10px;
+        background-color: black;
+        color: #f4f4f4;
+        transition-delay: 0.3s ease;
+        font-size: 20px;
+        cursor: pointer;
+}
